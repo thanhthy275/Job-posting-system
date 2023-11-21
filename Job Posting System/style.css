@@ -1,0 +1,266 @@
+body {
+    color: #444444;
+  }
+  
+a {
+    color: #4154f1;
+    text-decoration: none !important;
+  }
+  
+
+  /*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  
+  
+  .section-title h4 {
+    margin: 10px 0 0 0;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #012970;
+  }
+
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  #name-page {
+    font-size: 30px;
+    font-weight: 700;
+    color: #012970;
+  }
+
+  .navbar-nav a,
+  .navbar-nav a:focus {
+    font-size: 18px;
+    font-weight: 700;
+    color: #013289;
+    margin: 12px;
+  }
+
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus {
+    color: #4154f1 !important;
+  }
+  
+
+  
+  /*--------------------------------------------------------------
+  # Banner Section
+  --------------------------------------------------------------*/
+  #banner {
+    width: 100%;
+  }
+
+  .banner h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+  }
+  
+  .banner h2 {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+  }
+  
+  .banner .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  }
+  
+  .banner .btn-get-started span {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .banner .btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .banner .btn-get-started:hover i {
+    transform: translateX(5px);
+  }
+  
+.banner-img {
+    text-align: right;
+  }
+
+
+  /*--------------------------------------------------------------
+  Alert Section + Question section (About.php)
+  --------------------------------------------------------------*/
+  #alert .content, #question .content {
+    padding: 40px;
+    width: 300px !important;
+    height: 300px;
+  }
+  #alert h2, #question h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+    text-transform: uppercase;
+  }
+  
+  #alert p, #question p {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+  }
+  
+
+  .background-gradient {
+    background: linear-gradient(to bottom, #f7f9fc, #dbe6fc);
+    border-radius: 20% ;
+    box-shadow: 0px 5px 30px rgba(3, 37, 96, 0.08);
+  }
+
+  /*--------------------------------------------------------------
+  # SERVICE
+  --------------------------------------------------------------*/
+  #service .box {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(1, 41, 112, 0.08);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #service .box:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  }
+  
+  #service h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  #post-title {
+    color: #07d5c0;
+  }
+
+  #search-title {
+    color: #ff901c;
+  }
+  
+  #about-title {
+    color: #ff0071;
+  }
+  
+  #service p{
+    font-size: 16px;
+    color: #444444;
+    font-weight: 600;
+  }
+  
+  .btn-service {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    color: #4154f1;
+    transition: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #4154f1;
+  }
+  
+  .btn-service:hover {
+    background: #4154f1;
+    color: #fff;
+  }
+  
+
+
+/*---------POST------------*/
+.form {
+  padding: 20px;
+}
+.form h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #012970;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.form .form-group {
+  margin-bottom: 20px;
+}
+
+.form .container{
+  border-radius: 30px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  width: 60%;
+  padding: 10px;
+}
+
+
+.form form{
+  padding: 70px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.form img {
+  width:500px;
+  height: auto;
+  text-align: center;
+}
+
+
+
+
+#post-form .btn, #search-form .btn{
+  margin-right: 40px;
+}
+
+/* #post-form p {
+  font-style: italic;
+  color:red;
+} */
+
+.btn-form {
+  font-size: 14px;
+  padding: 8px 20px 10px 20px !important;
+  border:  none !important;
+}
+
+
